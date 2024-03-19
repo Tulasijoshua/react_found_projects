@@ -1,0 +1,50 @@
+.shopWrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5% 10%;
+    overflow: hidden;
+}
+
+.products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.productImg {
+    width: 250px;
+    height: 300px;
+}
+
+.productImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.productName {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.productName ul {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.productName ul li button{
+    font-size: 20px;
+    color: #fff;
+    background: #3d93d9;
+    padding: .8rem 1rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
